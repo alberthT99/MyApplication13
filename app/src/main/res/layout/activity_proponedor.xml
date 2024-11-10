@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNombrePropuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Propuesta" />
+
+    <EditText
+        android:id="@+id/edtLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lugar" />
+
+    <EditText
+        android:id="@+id/edtLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Localidad" />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor" />
+
+    <EditText
+        android:id="@+id/edtCoordenadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coordenadas" />
+
+    <EditText
+        android:id="@+id/edtFechaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Inicio" />
+
+    <EditText
+        android:id="@+id/edtFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Fin" />
+
+    <Button
+        android:text="Guardar Propuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGuardarPropuesta" />
+</LinearLayout>
+

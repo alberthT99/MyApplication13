@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para la cédula -->
+    <EditText
+        android:id="@+id/edtCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cédula"
+        android:inputType="number" />
+
+    <!-- Campo para el nombre -->
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text" />
+
+    <!-- Campo para la contraseña -->
+    <EditText
+        android:id="@+id/edtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <!-- Campo para confirmar la contraseña -->
+    <EditText
+        android:id="@+id/edtConfirmarContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Contraseña"
+        android:inputType="textPassword" />
+
+    <!-- Spinner para localidad -->
+    <Spinner
+        android:id="@+id/spLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Spinner para rol -->
+    <Spinner
+        android:id="@+id/spRol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Botón para registrar -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:onClick="registrarUsuario" />
+</LinearLayout>
+

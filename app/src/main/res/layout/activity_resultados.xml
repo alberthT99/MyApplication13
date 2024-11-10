@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView para mostrar los resultados de la propuesta y la cantidad de votos -->
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados aquí"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <!-- Botón para cerrar sesión y regresar al login -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:onClick="cerrarSesion" />
+</LinearLayout>
